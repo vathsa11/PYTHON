@@ -6,5 +6,6 @@ def most_frequent(str1):
     for i in srt:
         print(i[0],' = ',i[1])
 
-word=str(input('Please enter a string: '))
-most_frequent(word)
+word=input('Please enter a string: ')
+str1=word.lower()
+most_frequent(str1)
